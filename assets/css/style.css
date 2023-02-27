@@ -804,6 +804,7 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+
 .services .icon-box {
   text-align: center;
   padding: 70px 20px 80px 20px;
@@ -937,6 +938,17 @@ section {
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
+
+/*voglio il h2 bianco*/
+.testimonials .section-title h2 {
+  color: #fff;
+}
+
+.testimonials {
+  padding: 60px 0;
+  background: #3b3b3b;
+}
+
 .testimonials .section-header {
   margin-bottom: 40px;
 }
@@ -951,17 +963,18 @@ section {
 }
 
 .testimonials .testimonial-item .testimonial-img {
-  width: 120px;
+  width: 250px;
   border-radius: 50%;
   border: 4px solid #fff;
   margin: 0 auto;
+  
 }
 
 .testimonials .testimonial-item h3 {
   font-size: 20px;
   font-weight: bold;
   margin: 10px 0 5px 0;
-  color: #111;
+  color: #e9e5e5;
 }
 
 .testimonials .testimonial-item h4 {

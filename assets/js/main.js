@@ -1,9 +1,4 @@
-/**
-* Template Name: MyResume - v4.10.0
-* Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 (function() {
   "use strict";
 
@@ -232,8 +227,8 @@
   });
 
   /**
-   * Testimonials slider
-   */
+   * Testimonials slider */
+   
   new Swiper('.testimonials-slider', {
     speed: 600,
     loop: true,
